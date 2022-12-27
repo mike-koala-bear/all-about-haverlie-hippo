@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  background: url("../images/rainbow-background.jpg");
+}
+
+main .information {
+  text-align: center;
+}
+
+main h1 {
+  color: rgb(61, 72, 167);
+  font-family: "Varta", sans-serif;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  font-size: 2.25rem;
+}
+
+main h2 {
+  color: rgb(221, 27, 192);
+  font-family: "Varta", sans-serif;
+}
+
+main article {
+  color: blueviolet;
+  font-family: "Lato", sans-serif;
+}
+
+main .images [alt="Haverlie Hippo"] {
+  border: 3px solid #987525;
+  border-radius: 100%;
+  position: absolute;
+  left: 67%;
+}
+
+main .images [alt="Hippo Helen"] {
+  border: 3.5px solid #c11aad;
+  border-radius: 100%;
+  position: absolute;
+  top: 10%;
+  left: 5%;
+}
+
+.facts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.facts #elem {
+  /* color: white; */
+  border: 5px dashed rgb(247, 11, 11);
+  height: 105px;
+  width: 500px;
+  border-radius: 16px;
+}
+
+.facts #elam {
+  /* color: white; */
+  border: 5px dashed rgb(226, 170, 14);
+  height: 105px;
+  width: 600px;
+  border-radius: 16px;
+}
+
+.facts #eldm {
+  /* color: white; */
+  border: 5px dashed rgb(37, 194, 29);
+  height: 105px;
+  width: 725px;
+  border-radius: 16px;
+}
+
+.facts #elom {
+  /* color: white; */
+  border: 5px dashed rgb(28, 193, 205);
+  height: 105px;
+  width: 850px;
+  border-radius: 16px;
+}
+
+.facts #elcm {
+  /* color: white; */
+  border: 5px dashed rgb(19, 31, 200);
+  height: 105px;
+  width: 940px;
+  border-radius: 16px;
+}
+
+.facts #elsm {
+  /* color: white; */
+  border: 5px dashed rgb(200, 19, 182);
+  height: 105px;
+  width: 1050px;
+  border-radius: 16px;
+}
+
+.facts #elrm {
+  /* color: white; */
+  border: 5px dashed rgb(204, 21, 64);
+  height: 105px;
+  width: 1150px;
+  border-radius: 16px;
+}
