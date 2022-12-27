@@ -45,6 +45,16 @@ main .images [alt="Hippo Helen"] {
   left: 5%;
 }
 
+main .images [alt="Hippopotamus"] {
+  border: 3.5px solid #308289;
+  border-radius: 100%;
+  height: 300px;
+  width: 400px;
+  position: absolute;
+  left: 73%;
+  bottom: 35%;
+}
+
 .facts {
   display: flex;
   flex-direction: column;
